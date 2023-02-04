@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "name": "eltunmammad",
+    "password": "123456e",
+    "fullName" : "Mammadov Eltun"
+  },
+  {
+    "id":1,
+    "name":"rzashakh",
+    "password":"456rza",
+    "fullName": "Rza Shakriyar"
+  }
+]
