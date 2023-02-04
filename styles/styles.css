@@ -2,23 +2,32 @@
     margin-top: 200px;
 }
 
-form,
-h1 {
+form {
     margin: 0 auto !important;
+    width: 25%;
 }
 
-h1{
-    font-family: 'Open Sans', sans-serif;
+h1 {
+    font-family: "Open Sans", sans-serif;
 }
 
-.d-flex .forgot{
+.d-flex .forgot {
     background: none;
     border: none;
     color: blue;
     font-size: 13px;
     cursor: pointer;
 }
-
+@media screen and (max-width: 1200px) {
+    form {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 700px) {
+    form {
+        width: 100%;
+    }
+}
 
 .preloader {
     position: relative;
